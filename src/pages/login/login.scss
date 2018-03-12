@@ -1,0 +1,31 @@
+login-page {
+    .background.scroll-content {
+        background: url(../../assets/imgages/dental/loginblue.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        z-index: 2;
+    }
+    .login-content {
+        .alt-options {
+            .button {
+                margin: 0px;
+                padding: 0px;
+                font-size: 1.4rem;
+            }
+            .forgot-button {
+                color: $white-d;
+                .button-inner {
+                    justify-content: flex-start;
+                }
+            }
+            .signup-button {
+                font-weight: 500;
+                color: $theme-color-2;
+                .button-inner {
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
